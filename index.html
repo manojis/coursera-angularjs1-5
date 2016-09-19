@@ -2,9 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hello coursera</title>
+    <script src="angular.min.js"></script>
+    <script src="main.js"></script>
+    <style>body {font-size: 1.3em; }</style>
+    <title>Name Calculator</title>
   </head>
-  <body>
-    <h1>I have started on courera with my computer</h1>
+  <body ng-app="NameCalculator">
+    <h1>Name Calculator</h1>
+    <div ng-controller = "NameCalculatorController">
+      <div>
+        your Name:
+      <input type="text" ng-model="name" ng-blur="displayNumeric();" >
+    </div>
+    </div>
   </body>
 </html>
