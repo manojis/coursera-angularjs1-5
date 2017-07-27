@@ -1,0 +1,35 @@
+downloads
+atom
+nodejs
+git
+
+check for version of each
+	git --version
+	node --version
+	npm --version
+
+	npm install -g browser-sync
+	npm install -g bower
+	
+GitHub
+
+Create a new Repository by providing a name keep it public
+For enabling as website:
+	GitHub Pages needs to be enabled
+	Select Master Branch/GH pages
+	After save..your site is published at some url
+
+	
+In cmd prompt go to the folder:
+git clone <https url form the github>
+This will create a clone of the folder from the newly created repository in GitHub
+
+atom .
+browser-sync start --server --directory --files "**/*"
+
+git status
+git add . (the dot for adding all files to git)
+use git status for tracking the status of the added files
+git commit (This commits all the files shown in green i.e added files to git)
+git status
+git push
