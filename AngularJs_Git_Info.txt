@@ -3,6 +3,9 @@ atom
 nodejs
 git
 
+apm config set strict-ssl false
+apm config set https-proxy YOUR_PROXY_ADDRESS
+
 check for version of each
 	git --version
 	node --version
