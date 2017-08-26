@@ -33,6 +33,6 @@ browser-sync start --server --directory --files "**/*"
 git status
 git add . (the dot for adding all files to git)
 use git status for tracking the status of the added files
-git commit (This commits all the files shown in green i.e added files to git)
+git commit -m "comments for the same" (This commits all the files shown in green i.e added files to git)
 git status
 git push
